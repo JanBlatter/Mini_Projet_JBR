@@ -1,0 +1,30 @@
+h1 {
+    text-align:center;
+    font-family:"Bahnschrift";
+
+    right:50%;
+}
+
+
+h3 {
+   text-align:center;
+    font-family:"Bahnschrift";
+    right:50%;
+
+
+}
+body {
+    background-color: dimgrey;
+}
+
+
+section.images {
+    position:static;
+    right:50%;
+
+}
+
+img {
+    border : 10px solid whitesmoke;
+    margin-left:40%;
+}
