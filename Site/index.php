@@ -25,7 +25,7 @@ if (isset($_GET['action'])){                        /* Si action est activé , a
         case'loginIsCorrect':
             LoginIsCorrect($_POST);
             break;
-        case'RegisterIsCorrect':
+        case'registerIsCorrect':
             registerIsCorrect($_POST);
             break;
         default:
