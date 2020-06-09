@@ -6,6 +6,8 @@
  */
 
 
+require "model/userManagement.php";
+
 function home()
 {
 $_GET['action'] = "home";
@@ -17,3 +19,36 @@ function login()
     $_GET['action'] = "login";
     require "view/login.php";
 }
+
+function register()
+{
+    $_GET['action'] = "register";
+    require "view/register.php";
+}
+
+function registerIsCorrect($formR){
+    if (CheckRegister($formR)) {
+        home();
+    } else {
+        register();
+    }
+}
+
+
+function LoginIsCorrect($formL)
+{
+    if (CheckLogin($formL)) {
+        home();
+        echo"hello";
+    } else {
+        login();
+    }
+}
+
+function galerie()
+{
+    require "view/galerie.php";
+}
+
+
+

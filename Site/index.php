@@ -12,8 +12,22 @@ if (isset($_GET['action'])){                        /* Si action est activé , a
     switch ($action){
         case 'home':
             home();
+            break;
         case 'login':
             login();
+            break;
+        case 'galerie':
+            galerie();
+            break;
+        case'register':
+            register();
+            break;
+        case'loginIsCorrect':
+            LoginIsCorrect($_POST);
+            break;
+        case'RegisterIsCorrect':
+            registerIsCorrect($_POST);
+            break;
         default:
             home();
     }

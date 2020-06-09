@@ -35,6 +35,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Janbl\Documents\GitHub\Mini_Projet_JBR\Site\view" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Serveur" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
@@ -64,6 +69,10 @@
       <updated>1590004075751</updated>
       <workItem from="1590004077240" duration="495000" />
       <workItem from="1590004978802" duration="4827000" />
+      <workItem from="1590651076425" duration="2044000" />
+      <workItem from="1590671196217" duration="2873000" />
+      <workItem from="1591619822920" duration="10620000" />
+      <workItem from="1591713428147" duration="5319000" />
     </task>
     <servers />
   </component>
@@ -79,33 +88,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590004109791" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1590004541515">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1591620902288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590004541515" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1590009810342">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1591620902288" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1591714715786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590009810342" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1590009810342">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1591714715786" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1591714715786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590009810342" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1590009810342">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1591714715786" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1591714715786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590009810342" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1590009810342">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1591714715786" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1591714715786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590009810342" />
-    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1590008317716">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1591714715786" />
+    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1591716320662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590008317716" />
+    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1591716320662" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1590004140167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590004140167" />
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1590671197929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.34.1680.1010@0.0.1920.1040" timestamp="1590671197929" />
   </component>
 </project>

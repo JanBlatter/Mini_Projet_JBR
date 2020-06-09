@@ -4,37 +4,45 @@
  * User: Janbl
  * Date: 20.05.2020
  */
+ob_start();
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="view/style.css" />
-    <title>Arya la chienne</title>
+    <title>Arya</title>
 
 </head>
 <body>
-<div>
-    <h1> Le site officiel d'Arya Blatter </h1>
-</div>
-<div id ="menu">
+
+<header> Arya </header>
+
+<div class="menu">
+    <li><a href="index.php?action=home">Home</a></li>
+    <?php if (isset($_SESSION['e-mail'])) :?>
+        <br><li>Connecté en tant que :  <?php echo $_SESSION['e-mail']?></li>
+    <?php else:?>
+        <li><a href="index.php?action=login">Login</a></li>
+        <li><a href="index.php?action=register">Register</a></li>
+        <li><a href="index.php?action=galerie">Galerie</a></li>
+    <?php endif;?>
+
 
 </div>
 
 
+<?=$contenu?>
 
-<h3> Les images d'Arya</h3>
 
-<section id="images">
 
-<img src="view/content/images/image0.jpg" id="image0" width="250" height="333">
-<img src="view/content/images/image1.jpg" id="image1" width="250" height="333">
-    <br>
-<img src="view/content/images/image2.jpg" id="image2" width="250" height="333">
-<img src="view/content/images/image4.jpg" id="image4" width="250" height="333">
-    <br>
-<img src="view/content/images/image3.jpg" id="image3" width="500" height="350">
-</section>
+
+<footer>
+    <p> Contact :  Twitter @Arya </p>
+</footer>
+
+
+
 
 
 </body>

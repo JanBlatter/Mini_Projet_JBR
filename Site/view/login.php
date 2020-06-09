@@ -6,16 +6,15 @@
  */
 // tampon de flux stocké en mémoire
 ob_start(); //ouvre la mémoire tampon
-$titre="Arya - Login"
 ?>
-    <form class="form" method="POST" action="index.php?action=loginIsCorrect">
+    <form class="form" method="POST" action="index.php?action=LoginIsCorrect">
         <br>
         <h1> Login </h1>
-        <b>Username:</b><br>
-        <input  type="email" name="username" value="" placeholder="enter email adress" required>
+        <b>Email:</b><br>
+        <input class="form2"  type="email" name="email" value="" placeholder="enter email adress" required>
         <br>
         <b>Password:</b><br>
-        <input type="password" name="password" value="" placeholder="enter Password" required>
+        <input  class="form2" type="password" name="password" value="" placeholder="enter Password" required>
         <br>
         <br>
         <input type="submit" value="Login"> <input type="button" value="Reset"> Forgot <a href="">password</a> ?
