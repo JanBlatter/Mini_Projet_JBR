@@ -16,6 +16,9 @@ if (isset($_GET['action'])){                        /* Si action est activé , a
         case 'login':
             login();
             break;
+        case 'logout':
+            logout();
+            break;
         case 'galerie':
             galerie();
             break;
