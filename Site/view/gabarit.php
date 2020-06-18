@@ -19,10 +19,14 @@ ob_start();
 <header> Arya </header>
 
 <div class="menu">
-    <li><a href="index.php?action=home">Home</a></li>
+
     <?php if (isset($_SESSION['e-mail'])) :?>
         <br><li>Connecté en tant que :  <?php echo $_SESSION['e-mail']?></li>
+        <li><a href="index.php?action=home">Home</a></li>
+    <li><a href="index.php?action=logout">Logout</a></li>
+        <li><a href="index.php?action=galerie">Galerie</a></li>
     <?php else:?>
+        <li><a href="index.php?action=home">Home</a></li>
         <li><a href="index.php?action=login">Login</a></li>
         <li><a href="index.php?action=register">Register</a></li>
         <li><a href="index.php?action=galerie">Galerie</a></li>

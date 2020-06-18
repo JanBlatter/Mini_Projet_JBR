@@ -20,6 +20,13 @@ function login()
     require "view/login.php";
 }
 
+function logout()
+{
+    $_SESSION = session_destroy();
+    home();
+
+}
+
 function register()
 {
     $_GET['action'] = "register";

@@ -48,7 +48,7 @@ function CheckRegister($formR)
     } else {
         if ($formR['passwordRegister'] == $formR['passwordVerify']) {    // si le password du formulaire register est identique  avec la confirmation du mdp, hash le mdp.
             $pwdHash = password_hash($formR['passwordRegister'], PASSWORD_DEFAULT);
-            $requeteAdd = "INSERT INTO  (userEmailAddress, userHashPsw,) VALUES ('$email',.'$pwdHash');";       // ajoute le compte dans la base de donnée
+            $requeteAdd = "INSERT INTO users (userEmailAddress, userHashPsw) VALUES ('$email','$pwdHash');";       // ajoute le compte dans la base de donnée
             executeQuery($requeteAdd);
 
             $_SESSION['e-mail'] = $formR['emailRegister'];  //ouvre la session dès que la personne créé un compte.
